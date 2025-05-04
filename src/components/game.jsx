@@ -36,11 +36,7 @@ const Game = () => {
       >
         Reset Color
       </button>
-<<<<<<< HEAD
-    </>
-=======
     </div>
->>>>>>> pulling-content-up-exercise
   );
 };
 
