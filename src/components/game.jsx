@@ -15,8 +15,14 @@ const Game = () => {
       setIsWinner(true);
     }
   }
+<<<<<<< HEAD
   return (
     <>
+=======
+
+  return (
+    <div className="flex flex-col gap-8">
+>>>>>>> pulling-content-up-exercise
       <ColorSwatch color={correctAnswer} />
       <GameInput
         value={colorGuess}
@@ -35,7 +41,11 @@ const Game = () => {
       >
         Reset Color
       </button>
+<<<<<<< HEAD
     </>
+=======
+    </div>
+>>>>>>> pulling-content-up-exercise
   );
 };
 
